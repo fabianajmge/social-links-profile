@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #141414;
+}
+
+.card {
+    font-family: 'Inter';
+}
+
+img {
+    width: 88px;
+    border-radius: 99%;
+}
+
+.centralizado {
+    text-align: center;
+    margin: 15% 12px 0 12px;
+    padding: 2em 0 2em 0;
+    border: 1px solid black;
+    background-color: #1F1F1F;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.2em;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.city {
+    color: #C4F82A;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.bio {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 2em;
+}
+
+.links {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+
+    a {
+        background-color: #333333;
+        color: #FFFFFF;
+        width: 90%;
+        font-weight: 700;
+        font-size: 14px;
+        padding: 12px 0;
+    }
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 377px) {
+    .centralizado {
+        width: 30%;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+
+    a:active {
+        background-color: #C4F82A;
+        color: #333333;
+        cursor: url(assets/images/handcursor.svg), auto;
+    }
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
